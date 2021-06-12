@@ -148,78 +148,51 @@ of both mature work and work in progress.
         </div>
       </div>
 
-      <h2 id="program">Program (TBA)</h2>
-<!--
+      <h2 id="program">Program</h2>
       All times EDT.
       <ul>
-        <li> <b>10am - 10:10am: Opening remarks</b></li>
-        <li> <b>10:10am - 11:10am: [KEYNOTE] Bryan Parno </b> <a href="https://www.youtube.com/watch?v=FR1GDGHQ09o"> [video]</a> 
-            <details> <summary> The talk info</summary>
-            <p>Developing High-Performance Mechanically-Verified Cryptographic Code </p>
-
-            <p>
-                Project Everest is constructing a high-performance, standards-compliant,
-            formally verified implementation of the HTTPS ecosystem, including TLS, X.509,
-            and the core cryptographic algorithms.  This talk will present an overview of
-            how we verify our implementations are correct, cryptographically secure, and
-            resilient to basic side channels.  We will focus on our EverCrypt cryptographic
-            provider, a comprehensive collection of verified, cryptographic functionalities
-            (available via a carefully designed API) whose performance matches or exceeds
-            the best unverified implementations.  The talk will conclude with lessons
-            learned in the process of verifying over 124K lines of code and proof.
-            </p>
-
-            <p>Bio:</p>
-
-            <p>
-                Bryan Parno is an Associate Professor with a joint appointment in Carnegie Mellon University's Computer Science Department and Electrical & Computer Engineering Department, and a Senior Member of ACM and IEEE. After receiving a Bachelor's degree from Harvard College, he completed his PhD working with Adrian Perrig at Carnegie Mellon University, where his dissertation won the 2010 ACM Doctoral Dissertation Award. He then spent six years as a Researcher in Microsoft Research before returning to CMU.
-            </p>
-
-            <p>
-                Bryan's research is primarily focused on investigating long-term, fundamental improvements in how to design and build secure systems. In 2011, he was selected for Forbes' 30-Under-30 Science List. He formalized and worked to optimize verifiable computation, receiving a Best Paper Award at the IEEE Symposium on Security and Privacy for his advances. He coauthored a book on Bootstrapping Trust in Modern Computers, and his work in that area has been incorporated into the latest security enhancements in Intel CPUs. His research into security for new application models was incorporated into Windows and received Best Paper Awards at the IEEE Symposium on Security and Privacy and the USENIX Symposium on Networked Systems Design and Implementation. He has recently extended his interest in bootstrapping trust to the problem of building practical, formally verified secure systems, for which he received two Distinguished Paper Awards. His other research interests include user authentication, secure network protocols, and security in constrained environments (e.g., RFID tags, sensor networks, or vehicles).
-            </p>
-            </details>
-        </li>
-        <li> <b>11:25am - 12:20pm: [Session #1] Blockchain </b></li>
-        <ul>
-             <li> <font color=#2893ff> <b> Session chairs: Joe Near and Isaac Sheff </b> </font> </li>
-             <li> On the Optimality of Optimistic Responsiveness. Ittai Abraham, Kartik Nayak, Ling Ren and Nibesh Shrestha <a href="https://www.youtube.com/watch?v=HLeELfcy0z0"> [video]</a>  </li>
-             <li> Anonymity Trilemma: not all is lost for anonymity, but quite a lot is. Debajyoti Das, Sebastian Meiser, Esfandiar Mohammadi and Aniket Kate <a href="https://www.youtube.com/watch?v=uRXrXgzq7Pg"> [video]</a> <a href="slides/coordination-helps-anonymity_1.pdf"> [slides]</a> </li>
-             <li> Practical and Verifiable Electronic Sortition. Hsun Lee and Hsu-Chun Hsiao <a href="https://www.youtube.com/watch?v=XTADNQuk_ZY"> [video]</a> <a href="paper/10_fcs2020_practical_and_verifiable_sortition.pdf"> [paper]</a> </li>
-             <li> Virtual coffee and Q &amp; A</li>
-        </ul>
-        <li> <b>Lunch break</b></li>
-
-        <li><b> 1:30pm - 2:35pm: [Session #2] Root of trust and side channels </b></li>
-  	  <ul>
-          <li> <font color=#2893ff> <b> Session chairs: Kartik Nayak and Mu Zhang </b> </font> </li>
-	   <li>	What’s Necessary to Establish Malware Freedom Unconditionally? Virgil Gligor <a href="https://www.youtube.com/watch?v=dDhzy02on7g"> [video]</a> <a href="paper/2_What's_necessary_to_establish_malware_freedom.pdf"> [paper]</a> <a href="slides/2_Slides_What's_necessary_to_estgablish_malware fredom.pdf"> [slides] </a> </li>
-           <li>Constant-Time Foundations for the New Spectre Era.  Sunjay Cauligi, Craig Disselkoen, Klaus V. Gleissenthall, Dean Tullsen, Deian Stefan, Tamara Rezk and Gilles Barthe <a href="https://www.youtube.com/watch?v=NXtvo1zYxjo"> [video]</a> </li>
-	   <li>Automatically Eliminating Speculative Leaks from Cryptographic Code with Blade.  Marco Vassena, Klaus Von Gleissenthall, Rami Gökhan Kıcı, Deian Stefan and Ranjit Jhala <a href="https://www.youtube.com/watch?v=fShVb_lBrKo"> [video]</a> </li>
-           <li> Virtual coffee and Q &amp; A</li>
-          </ul>
-
-	<li><b> 2:45pm - 3:25pm: [Session #3] Information flow control </b></li>
-          <ul>
-             <li> <font color=#2893ff> <b> Session chairs: Elisavet Kozyri and Danfeng Zhang </b> </font> </li>
-            <li>Noninterference Half-Off: The Semantics of Program Counter Labels and Effects.  Andrew Hirsch and Ethan Cecchetti <a href="https://www.youtube.com/watch?v=PNWnD2DTDcI"> [video]</a> <a href="paper/Noninterference_Half-Off.pdf"> [paper]</a> </li>
-            <li>PER-based certification of secure information flow.  Andrzej Filinski, Thomas Jensen and Ken Friis Larsen <a href="https://www.youtube.com/watch?v=O0CElzbRCk4"> [video]</a> <a href="paper/9_per-based_certification_of_secure_information_flow_1page.pdf"> [paper]</a> <a href="slides/9_per-based_certification_of_secure_information_flow_slides.pdf"> [slides]</a> </li>
-            <li>Zeebra: compiler for a low-level language with IFC.  Christoffer Müller Madsen, Jon Michael Aanes and Aslan Askarov <a href="https://www.youtube.com/watch?v=aamxn1hHbPg"> [video]</a> </li>
-            <li>Virtual coffee and Q &amp; A</li>
-          </ul>
-
-        <li><b>3:30pm - 4:05pm: [Session #4] Formal methods, PKI, and AI</b></li>
-           <ul>
-             <li> <font color=#2893ff> <b> Session chairs: Josh Gancher and Niki Vazou </b> </font> </li>
-             <li>Adversarial Robustness of AI Agents Acting in Probabilistic Environments.  Lisa Oakley, Alina Oprea and Stavros Tripakis <a href="https://www.youtube.com/watch?v=4U8DLnEnpqA"> [video]</a> <a href="paper/Adversarial_Robustness_of_AI_Agents_Acting_in_Probabilistic_Environments.pdf"> [paper]</a> </li>
-	     <li>Synthesis of Deceptive Cyberdefense with Temporal Logic Constraints.  Abhishek Kulkarni and Jie Fu <a href="https://www.youtube.com/watch?v=PexLfs7nBKA"> [video]</a> <a href="paper/13-Synthesis_of_Deceptive_Cyberdefense_with_Temporal_Logic_Constraints.pdf"> [paper]</a> </li>
-             <li>Assertion-Carrying Certificates.  Waqar Aqeel, Zachary Hanif, James Larisch, Olamide Omolola, Taejoong Chung, Dave Levin, Bruce Maggs, Alan Mislove, Bryan Parno and Christo Wilson <a href="https://www.youtube.com/watch?v=XntM2bCpil0"> [video]</a> <a href="paper/paper-14_assertion_carrying_certificates.pdf"> [paper]</a> <a href="slides/slides-14_assertion_carrying_certificates.pdf"> [slides]</a> </li>
-             <li>The Fox and the Hound: Comparing Fully Abstract and Robust Compilation. Carmine Abate and Matteo Busi  <a href="https://www.youtube.com/watch?v=Z4zbrlCadDc"> [video]</a> </li>
-             <li>Virtual coffee and Q &amp; A</li>
-           </ul>
-         <li><b>Closing remarks</b></li>
-      </ul>
+        <li><font > <b>9am - 9:10am: Opening remarks</b></font></li>
+        <li><font > <b>9:10am - 10:10am: [KEYNOTE #1] </b></font> 
+<!--
+            <details> <summary>talk info</summary> Abstract / Bio </details>
 -->
+        </li>
+        <li><font > <b>10:10am - 11:10am: [KEYNOTE #2] </b></font> 
+<!--
+            <details> <summary>talk info</summary> Abstract / Bio </details>
+-->
+        <li><font > <b>11:15am - 11:45pm: [Session #1] Privacy</b></font></li>
+        <ul>
+             <li> <font><b>Session chairs: TBD</b> </font> </li>
+             <li>Solo: Enforcing Differential Privacy Without Fancy Types. Chike Abuah, David Darais and Joe Near</li>
+             <li>Understanding Privacy Regulations through Narrative Generation. Chinmaya Dabral and Chris Martens</li>
+        </ul>
+        <li><font > <b>12:00pm - 1:00pm: Lunch break</b></font></li>
+        <li><font ><b>1:00pm - 1:45pm: [Session #2] Hardware/Software Security</b></font></li>
+        <ul>
+             <li> <font><b>Session chairs: TBD</b> </font> </li>
+             <li>SoK: Practical Foundations for Spectre Defenses. Sunjay Cauligi, Craig Disselkoen, Daniel Moghimi, Gilles Barthe and Deian Stefan</li>
+             <li>Total Eclipse of the Enclave: Detecting Eclipse Attacks From Inside TEEs.  Haofan Zheng, Tuan Tran and Owen Arden</li> 
+             <li>Isolation Without Taxation: Near Zero Cost Transitions for SFI Matthew Kolosick, Shravan Narayan, Conrad Watt, Michael LeMay, Deepak Garg, Ranjit Jhala and Deian Stefan</li>
+        </ul>
+        <li><b>1:45pm - 2:00pm: break </b></li>
+        <li><font ><b>2:00pm - 3:00pm: [Session #3] Language-based Security</b></font></li>
+        <ul>
+             <li> <b>Session chairs: TBD</b> </font> </li>
+             <li>Symphony: A Concise Language Model for MPC. David Darais, David Heath, Ryan Estes, William Harris, Ian Sweet and Michael Hicks</li>
+             <li>Verified Computation via Compilation to Abstract Machines. Ryan Estes, David Darais and Joseph Near</li>
+             <li>Expressive Authorization Policies using Computation Principals. Anitha Gollamudi and Stephen Chong</li>
+             <li>Security Preserving Program Transformations with ITrees. Lucas Silver, Andrew Hirsch, Ethan Cecchetti, Paul He and Steve Zdancewic</li>
+        </ul>
+        <li><font ><b>3:15pm - 4:00pm: [Session #4] Information Flow Control</b></font></li>
+  	  <ul>
+          <li><font> <b> Session chairs: TBD </b> </font> </li>
+          <li>A Causal Account of Program Security. Matvey Soloviev and Joseph Halpern</li>
+          <li>Secure Information Flow for Concurrent Programs with Expressive Synchronization. Rolph Recto, Maximilian Algehed and Andrew Myers</li>
+          <li>Security Properties for Stack Safety. Sean Anderson, Leonidas Lampropoulos, Roberto Blanco, Benjamin Pierce and Andrew Tolmach</li>
+          </ul>
+         <li><font ><b>Closing remarks</b></font></li>
+      </ul>
       <h2 id="dates">Important dates</h2>
 
       <div class="panel panel-default">
